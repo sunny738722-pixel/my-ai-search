@@ -5,8 +5,8 @@ from tavily import TavilyClient
 # ==============================================================================
 # 🔐 PASTE YOUR KEYS HERE
 # ==============================================================================
-GROQ_API_KEY = "gsk_"      # <--- Paste Groq Key
-TAVILY_API_KEY = "tvly"   # <--- Paste Tavily Key
+GROQ_API_KEY = "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"      # <--- Paste Groq Key
+TAVILY_API_KEY = "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"   # <--- Paste Tavily Key
 # ==============================================================================
 
 st.set_page_config(page_title="My Perplexity", page_icon="🧠", layout="wide")
