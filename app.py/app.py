@@ -5,8 +5,8 @@ from tavily import TavilyClient
 # ==============================================================================
 # 🔐 PASTE YOUR KEYS HERE
 # ==============================================================================
-GROQ_API_KEY = "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"      # <--- Paste Groq Key
-TAVILY_API_KEY = "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"   # <--- Paste Tavily Key
+GROQ_API_KEY = "Z"      # <--- Paste Groq Key
+TAVILY_API_KEY = "t"   # <--- Paste Tavily Key
 # ==============================================================================
 
 st.set_page_config(page_title="My Perplexity", page_icon="🧠", layout="wide")
@@ -103,4 +103,5 @@ if prompt := st.chat_input("Ask a question..."):
         "role": "assistant", 
         "content": full_response,
         "sources": sources
+
     })
